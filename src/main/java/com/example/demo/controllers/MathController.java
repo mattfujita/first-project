@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.example.demo.models.Adder;
 
 @Controller
-@RequestMapping("/math") //this is the base path for the controller, we NEED TO SPECIFY FOR ROUTING, we are appending this now in URL
+@RequestMapping({"/", "/math"}) //this is the base path for the controller, we NEED TO SPECIFY FOR ROUTING, we are appending this now in URL
 public class MathController {
 
 	//this points to http://localhost:8080/math/adder (this is a post mapping)
