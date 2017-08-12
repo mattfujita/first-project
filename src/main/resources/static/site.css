@@ -1,10 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
+.header {
+  background: #212a2d;
+  text-align: left;
+  border-left: 6px solid #408080;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  padding: 24px 25px;
+}
+
+.subheader {
+  background: #212a2d;
+  color: #ffffff;	
+  border-left: 6px solid #408080;
+  border-radius: 0 4px 4px 0;
+  clear: left;
+  display: block;
+  text-align; left;
+  padding: 24px 25px;
+  margin-bottom: 10px;
+}
+
+.nums {
+  background: #212a2d;
+  text-align: left;
+  border-left: 6px solid #408080;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+}
+
+.button {
+  background: #408080;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 15px 0 0;
+  padding: 8px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 html, body, input, select, textarea, button {
   font-family: 'Roboto', sans-serif;
 }
 
-html, body {
+body {
+  background: #212a2d;
+  color: #655940;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 8px 10px;
+}
+
+html {
   font-size: 14px;
 }
 
@@ -23,7 +82,7 @@ input[type="number"] {
 
 input[type="text"]:invalid,
 input[type="number"]:invalid {
-  border-left-color: #c5162c;
+  border-left-color: #ff0000;
   outline: 0;
   box-shadow: none;
 }
@@ -37,21 +96,31 @@ button {
   border-radius: 0;
   padding: 4px 8px;
   border: 2px solid transparent;
-  background-color: #FF5555;
+  background-color: #00ff00;
   color: white;
   outline: 0;
 }
 
 button:focus,
 button:hover {
-  border-color: #FF5555;
+  border-color: #00ff00;
   background-color: transparent;
-  color: #FF5555;
+  color: #00ff00;
 }
 
 button:active {
-  border-color: #FF5555;
-  background-color: #ff8982;
+  border-color: #00ff00;
+  background-color: #00ff00;
   color: black;
 }
 
+input {
+  border-radius: 4px;
+  float: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 4px;
+  padding: 10px 5px;
+  text-align: center;
+  width: 140px;
+}
