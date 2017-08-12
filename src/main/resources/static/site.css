@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
+.main {
+  background: #212a2d;
+  border-radius: 4px;
+  border: 2px solid #408080;
+  box-shadow: 0px 1px 5px 2px;
+  margin: 40px auto 0;
+  padding: 7px 7px 30px;
+  text-align: center;
+  width: 480px;
+}
+
 .header {
   background: #212a2d;
-  text-align: left;
-  border-left: 6px solid #408080;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 2px;
+  border: 2px solid #408080;
+  text-align: center;
   border-radius: 0 4px 4px 0;
   color: #ffffff;
-  display: block;
-  float: left;
-  margin-bottom: 10px;
+  margin: 40px auto 0;
+  margin-bottom: 40px auto 0;
   padding: 24px 25px;
+  width: 480px;
 }
 
 .subheader {
@@ -24,27 +37,68 @@
   margin-bottom: 10px;
 }
 
+a {
+  background: #000000;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 24px 25px;
+  width: 450px;
+}
+
+.subhead {
+  background: #212a2d;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 2px;
+  border: 2px solid #408080;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+  margin: 40px auto 0;
+  margin-bottom: 40px auto 0;
+  padding: 24px 25px;
+  width: 450px;
+}
+
 .nums {
   background: #212a2d;
   text-align: left;
   border-left: 6px solid #408080;
   border-radius: 0 4px 4px 0;
   color: #ffffff;
-  display: block;
+  overflow: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 15px 20px;
+}
+
+label {
+  margin: 30px 30px 30px auto 0;
+  padding: 5px 5px;
+  width: 120px;
+  float: left;
+}
+
+input {
+  border-radius: 4px;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin-left: 4px;
+  padding: 10px 5px;
+  text-align: center;
+  width: 140px;
 }
 
 .button {
   background: #408080;
   border-radius: 4px;
   color: #ffffff;
-  display: inline-block;
+  display: inline- left;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
-  margin: 10px 15px 0 0;
+  margin: 10px 5px 0 5px;
   padding: 8px 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -55,7 +109,7 @@ html, body, input, select, textarea, button {
 }
 
 body {
-  background: #212a2d;
+  background: #000000;
   color: #655940;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -82,14 +136,14 @@ input[type="number"] {
 
 input[type="text"]:invalid,
 input[type="number"]:invalid {
-  border-left-color: #ff0000;
+  border-left-color: #00ff00;
   outline: 0;
   box-shadow: none;
 }
 
 input[type="text"]:focus,
 input[type="number"]:focus {
-  border-bottom-color: #FF5555;
+  border-bottom-color: #00ff00;
 }
 
 button {
@@ -112,15 +166,4 @@ button:active {
   border-color: #00ff00;
   background-color: #00ff00;
   color: black;
-}
-
-input {
-  border-radius: 4px;
-  float: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  margin-left: 4px;
-  padding: 10px 5px;
-  text-align: center;
-  width: 140px;
 }
